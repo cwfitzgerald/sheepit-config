@@ -7,6 +7,7 @@ This is an example of a multi-gpu/cpu sheepit config. Right click on the powersh
 To set up, look in the config file and replace all things in <brackets> with the value you want. Generally you need to adjust:
 	
   - Path to java in start-sheepit.ps1
+  - Path to sheepit jar in start-sheepit.ps1
   - Username in configs
   - Password in configs
   - Hostname in configs
