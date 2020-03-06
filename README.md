@@ -13,7 +13,7 @@ To set up, look in the config file and replace all things in <brackets> with the
   - Username in configs
   - Password in configs
   - Hostname in configs
-    - This is not a network hostname, this is just a name to give the client a label.
+    - This is not a network hostname, this is just a name to give the client a label. Labels need not be unique.
   - Cpu cores in configs
     - Always use `cpu-count - gpu-count`. If you have 8 cores and 2 gpus, use 8 - 2 = 6 cores. GPU instances generally need one core.
   - Memory for cpu config
